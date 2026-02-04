@@ -1,0 +1,28 @@
+﻿<Solution>
+  <Folder Name="/common/">
+    <File Path="Directory.Packages.props" />
+    <File Path="Directory.Build.props" />
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/ATM/">
+    <Project Path="src\ATM\ATM\ATM.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/src/ATM/Application/">
+    <Project Path="src\ATM.Application.Abstractions\ATM.Application.Abstractions.csproj" Type="C#" />
+    <Project Path="src\ATM.Application.Contracts\ATM.Application.Contracts.csproj" Type="C#" />
+    <Project Path="src\ATM.Application\ATM.Application.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/src/ATM/Domain/">
+    <Project Path="src\ATM.Domain\ATM.Domain.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/src/ATM/Infrastructure/">
+    <Project Path="src\ATM.Infrastructure\ATM.Infrastructure.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/src/ATM/Presentation/">
+    <Project Path="src\ATM.Presentation.Http\ATM.Presentation.Http.csproj" Type="C#" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests\ATM.Tests\ATM.Tests.csproj" Type="C#" />
+  </Folder>
+</Solution>

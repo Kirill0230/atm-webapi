@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <RootNamespace>ATM.Presentation.Http</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Remove="Properties\launchSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ATM.Application.Contracts\ATM.Application.Contracts.csproj" />
+    </ItemGroup>
+    
+</Project>
